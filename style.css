@@ -77,16 +77,32 @@
   
 }
 
+.footer {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+
+  margin-top: 60px;
+}
+
+.footer p {
+  font-size: 40px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  transition: transform 1s;
+}
+
+
+
+
 .zoom:hover {
   transform: scale(1.1);
 }
 
-
-
 .pointer {
   cursor: pointer;
 }
-
 
 .glow {
   color: #fff;
